@@ -1,0 +1,2 @@
+SendSms send my {Destination} {Text}
+SendSms send {Destination} {Text}

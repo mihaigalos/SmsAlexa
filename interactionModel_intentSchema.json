@@ -1,0 +1,18 @@
+{
+"intents": 
+	[
+		{
+			"intent": "SendSms",
+			"slots": [
+					{
+					"name": "Destination",
+					"type": "LIST_OF_DESTINATIONS"
+					},
+                  {
+                    "name" : "Text",
+                    "type" : "LIST_TEXT"
+                  }
+			]
+		}
+      ]
+}

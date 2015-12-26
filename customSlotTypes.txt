@@ -1,0 +1,2 @@
+LIST_OF_DESTINATIONS: Alexandra | Husband | Wife | Love
+LIST_TEXT: call me back as soon as possible | please come home | come home | help
