@@ -23,7 +23,7 @@ Amazon, Alexa, Echo, Twilio, Rest, AWS, Lambda, Alexa Skill Kit, ASK
  12. You can Skip Test and Publishing information for now. Your skill should be ready.
  
 # Usage
-I use it like : "Alexa, open sms and send my wife {text}". The request automatically calls the lambda function described above which in turn calls the Twilio api with the parsed text from speech. Wife is happy for having received an sms. 
+I use it like : "Alexa, open sms and send my wife {text}". The request automatically calls the lambda function described above which in turn calls the Twilio api with the parsed text from speech. Wife is happy for having received an sms. :) 
  
 # License
 This software is freely available under the GNU GPL v3.0 aegis, please consult the LICENSE file for further information
