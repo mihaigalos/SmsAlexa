@@ -12,7 +12,7 @@ Amazon, Alexa, Echo, Twilio, Rest, AWS, Lambda, Alexa Skill Kit, ASK
  1. You need to create a Twilio account. once you have one, you can get a free phone number for your country. I live in Germany, which is why the phone numbers in this example are preceded by +49. Make sure the phone number you get at Twilio supports sms.
  2. In your Twilio account settings, you need to find out the account session Id and authentification token. You will need them in the next stage when creating your lambda function.
  3. If you don't already have one, get an Amazon AWS account (free). 
- 4. From the AWS Console, you need to create a Lambda function wich will execute the code that will send the sms text decoded from speach to the sms gateway.
+ 4. From the AWS Console (https://aws.amazon.com), you need to create a Lambda function wich will execute the code that will send the sms text decoded from speach to the sms gateway.
  5. Give the lambda function a name and a default operating role.
  6. Paste in the code from SmsAlexa_AWSLambda.js found in this repository. fill in your Twilio credentials in this lambda function, namely your session id and auth token.
  7. Take the ARN id of your lambda function (found on the top right of the lambda), you will need it in the next stage when creating an Alexa skill
