@@ -1,4 +1,4 @@
-# SmsAlexa
+# SmsAlexa [![license](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](LICENSE)
 Implementation of wrapper code to enable sending sms text messages using the Amazon Echo (Alexa) and the Twilio REST Api.
 
 # Keywords 
